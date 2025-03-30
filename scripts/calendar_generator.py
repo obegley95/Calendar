@@ -20,7 +20,7 @@ def create_calendar(json_path, calendar_name):
     cal.creator = f"{calendar_name} Schedule Calendar Generator"
     
     # Set calendar metadata
-    calendar.extra.append(f"X-WR-CALNAME:{calendar_name}")
+    cal.extra.append(f"X-WR-CALNAME:{calendar_name}")
 
     # Process each race
     for race in data['races']:
