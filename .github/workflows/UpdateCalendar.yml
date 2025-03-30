@@ -3,24 +3,27 @@ on:
   # Run on schedule
   #schedule:
   #  - cron: '0 0 * * *'  # Run daily at midnight UTC
-  
+
   # Also run when the JSON file changes
   push:
     paths:
       - 'f1_schedule_2025.json'
       - 'f2_schedule_2025.json'
-      - 'f3_schedule_2025.json'      
-  
+      - 'f3_schedule_2025.json'
+#      - 'scripts/update_webcal_script.py'
+#      - 'scripts/calendar_generator.py'
+
   # Allow manual triggering
   workflow_dispatch:
+
 jobs:
   update-calendar:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-    
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -31,20 +34,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install ics requests
 
-    - name: Update F1 Calendar
+    - name: Update Calendars
       env:
         GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        GIST_ID: ${{ secrets.F1_GIST_ID }}
-      run: python scripts/update_webcal_script.py f1_schedule_2025.json F1
-        
-    - name: Update F2 Calendar
-      env:
-        GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        GIST_ID: ${{ secrets.F2_GIST_ID }}
-      run: python scripts/update_webcal_script.py f2_schedule_2025.json F2
-
-    - name: Update F3 Calendar
-      env:
-        GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        GIST_ID: ${{ secrets.F3_GIST_ID }}
-      run: python scripts/update_webcal_script.py f3_schedule_2025.json F3
+      run: |
+        python scripts/update_webcal_script.py f1_schedule_2025.json F1 ${{ secrets.F1_GIST_ID }}
+        python scripts/update_webcal_script.py f2_schedule_2025.json F2 ${{ secrets.F2_GIST_ID }}
+        python scripts/update_webcal_script.py f3_schedule_2025.json F3 ${{ secrets.F3_GIST_ID }}

@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import sys
 from calendar_generator import create_calendar
 
 def update_calendar(json_path, calendar_name, gist_id):
@@ -10,7 +11,7 @@ def update_calendar(json_path, calendar_name, gist_id):
     GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 
     if not GITHUB_TOKEN or not gist_id:
-        print("Error: Missing required environment variables GITHUB_TOKEN or GIST_ID")
+        print("Error: Missing required GitHub token or Gist ID")
         return False
 
     # Generate the calendar
@@ -47,9 +48,13 @@ def update_calendar(json_path, calendar_name, gist_id):
         return False
 
 if __name__ == "__main__":
-    # Example usage
-    json_path = "f2_schedule_2025.json"  # Replace with the desired JSON file
-    calendar_name = "F2"  # Replace with "F1" for F1 calendar
-    gist_id = os.environ.get("GIST_ID")  # Replace with the Gist ID for the calendar
+    # Parse command line arguments
+    if len(sys.argv) < 4:
+        print("Usage: python update_calendar.py <json_path> <calendar_name> <gist_id>")
+        sys.exit(1)
+
+    json_path = sys.argv[1]
+    calendar_name = sys.argv[2]
+    gist_id = sys.argv[3]
 
     update_calendar(json_path, calendar_name, gist_id)
