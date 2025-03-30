@@ -9,7 +9,7 @@ on:
     paths:
       - 'f1_schedule_2025.json'
       - 'f2_schedule_2025.json'
-      - 'f3_schedule_2025.json'
+#      - 'f3_schedule_2025.json'
 #      - 'scripts/update_webcal_script.py'
 #      - 'scripts/calendar_generator.py'
 
@@ -40,4 +40,4 @@ jobs:
       run: |
         python scripts/update_webcal_script.py f1_schedule_2025.json F1 ${{ secrets.F1_GIST_ID }}
         python scripts/update_webcal_script.py f2_schedule_2025.json F2 ${{ secrets.F2_GIST_ID }}
-        python scripts/update_webcal_script.py f3_schedule_2025.json F3 ${{ secrets.F3_GIST_ID }}
+#        python scripts/update_webcal_script.py f3_schedule_2025.json F3 ${{ secrets.F3_GIST_ID }}
