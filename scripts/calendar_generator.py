@@ -6,7 +6,7 @@ import sys
 import os
 
 # Session durations (approximate)
-SESSION_DURATIONS = {
+DEFAULT_SESSION_DURATIONS = {
     'practice': timedelta(minutes=45),
     'qualifying': timedelta(minutes=30),
     'sprint': timedelta(minutes=45),
@@ -15,7 +15,18 @@ SESSION_DURATIONS = {
     'fp2': timedelta(minutes=60),
     'fp3': timedelta(minutes=60),
     'race': timedelta(hours=2),
-    'sprintQualifying': timedelta(minutes=30)
+    'sprintqualifying': timedelta(minutes=30)
+}
+
+# Custom durations for specific calendars
+CUSTOM_SESSION_DURATIONS = {
+    'F1': {
+        'qualifying': timedelta(hours=1),  # F1 qualifying is 1 hour
+        'sprint': timedelta(minutes=30),  # F1 sprint is 30 minutes
+    },
+    'F3': {
+        'sprint': timedelta(minutes=40),  # F3 sprint is 40 minutes
+    }
 }
 
 # Map session types to emojis
@@ -31,113 +42,80 @@ SESSION_EMOJIS = {
     'sprintqualifying': '⏱️'
 }
 
+def get_session_duration(calendar_name, session_type):
+    return CUSTOM_SESSION_DURATIONS.get(calendar_name, {}).get(session_type.lower(), DEFAULT_SESSION_DURATIONS.get(session_type.lower(), timedelta(hours=1)))
+
+def get_fantasy_deadline(race_sessions):
+    """
+    Determine the fantasy deadline: qualifying on regular weekends
+    or sprint on sprint weekends.
+    """
+    qualifying_time = race_sessions.get('qualifying')
+    sprint_time = race_sessions.get('sprint')
+    
+    if sprint_time:
+        deadline_time = sprint_time
+    elif qualifying_time:
+        deadline_time = qualifying_time
+    else:
+        return None
+    
+    try:
+        return datetime.strptime(deadline_time, '%Y-%m-%dT%H:%M:%SZ')
+    except ValueError:
+        print(f"Warning: Invalid time format for fantasy deadline: {deadline_time}")
+        return None
+
 def create_calendar(json_path, calendar_name):
-    """
-    Generate an ICS calendar file from a schedule JSON
-
-    Args:
-        json_path: Path to the JSON file containing race schedule data
-        calendar_name: Name of the calendar (e.g., F1 or F2)
-
-    Returns:
-        str: Path to the generated ICS file
-
-    Raises:
-        FileNotFoundError: If the JSON file doesn't exist
-        json.JSONDecodeError: If the JSON file is invalid
-    """
-    # Validate inputs
-    if not calendar_name:
-        raise ValueError("Calendar name cannot be empty")
-
-    # Check if file exists
     if not os.path.exists(json_path):
         raise FileNotFoundError(f"JSON file not found: {json_path}")
 
-    # Load the JSON data
-    try:
-        with open(json_path, 'r') as f:
-            data = json.load(f)
-    except json.JSONDecodeError:
-        raise json.JSONDecodeError(f"Invalid JSON in file: {json_path}")
+    with open(json_path, 'r') as f:
+        data = json.load(f)
 
-    # Create a new calendar
     cal = Calendar()
     cal.creator = f"{calendar_name} Schedule Calendar Generator"
-
-    # Set calendar metadata
     cal.extra.append(ContentLine(name="X-WR-CALNAME", value=f"{calendar_name} Racing Calendar 2025"))
     cal.extra.append(ContentLine(name="X-WR-TIMEZONE", value="UTC"))
 
-    # Check for duplicate rounds and fix if necessary
-    rounds = {}
     for race in data.get('races', []):
-        round_num = race.get('round')
-        if round_num in rounds:
-            print(f"Warning: Duplicate round number {round_num} detected for {race['name']} and {rounds[round_num]['name']}")
-        else:
-            rounds[round_num] = race
-
-    # Process each race
-    for race in data.get('races', []):
-        # Add each session as a separate event
         for session_type, session_time in race.get('sessions', {}).items():
-            # Create an event
-            event = Event()
-
-            # Format session type for display (handling variations like 'fp1', 'race', etc.)
-            display_session = session_type
-            if session_type.lower() in ['fp1', 'fp2', 'fp3']:
-                display_session = session_type.upper()
-            elif session_type.lower() == 'sprintqualifying':
-                display_session = 'Sprint Qualifying'
-            else:
-                display_session = session_type.capitalize()
-
-            # Set event details with emoji
-            emoji = SESSION_EMOJIS.get(session_type.lower(), '')
-            event.name = f"{emoji} {race['name']} - {display_session}"
-            event.description = f"Round {race['round']} - {race['location']} - {display_session} Session"
-
-            # Add location data
-            event.location = race['location']
-            if 'latitude' in race and 'longitude' in race:
-                event.geo = (race['latitude'], race['longitude'])
-
-            # Add categories for better filtering
-            event.categories = ['Motorsport', calendar_name, display_session]
-
-            # Convert ISO timestamp to datetime
             try:
                 start_time = datetime.strptime(session_time, '%Y-%m-%dT%H:%M:%SZ')
             except ValueError:
                 print(f"Warning: Invalid time format for {race['name']} {session_type}: {session_time}")
                 continue
 
-            # Set times
+            event = Event()
+            display_session = "Sprint Qualifying" if session_type.lower() == "sprintqualifying" else session_type.upper() if 'fp' in session_type.lower() else session_type.capitalize()
+            event.name = f"{SESSION_EMOJIS.get(session_type.lower(), '')} {race['name']} - {display_session}"
+            event.description = f"Round {race['round']} - {race['location']} - {display_session} Session"
+            event.location = race['location']
+            event.categories = ['Motorsport', calendar_name, display_session]
             event.begin = start_time
-            event.end = start_time + SESSION_DURATIONS.get(session_type.lower(), timedelta(hours=1))
-
-            # Add alerts (reminders)
-            event.alarms = [
-                {'action': 'display', 'trigger': timedelta(hours=-1)},
-                {'action': 'display', 'trigger': timedelta(minutes=-15)}
-            ]
-
-            # Add event to calendar
+            event.end = start_time + get_session_duration(calendar_name, session_type)
             cal.events.add(event)
 
-    # Create output filename
-    filename = f"{calendar_name.lower()}_calendar_2025.ics"
+        fantasy_deadline = get_fantasy_deadline(race['sessions'])
+        if fantasy_deadline:
+            fantasy_event = Event()
+            fantasy_event.name = f"🔵 F1 Fantasy Deadline - Round {race['round']}"
+            fantasy_event.description = f"Fantasy deadline for {race['name']} (Round {race['round']})"
+            fantasy_event.begin = fantasy_deadline
+            fantasy_event.end = fantasy_deadline
+            fantasy_event.categories = ['Fantasy Deadline', 'Motorsport', calendar_name]
+            fantasy_event.alarms = [
+                {'action': 'display', 'trigger': timedelta(minutes=-30)}  # 30 minutes before
+            ]
+            cal.events.add(fantasy_event)
 
-    # Write to file
+    filename = f"{calendar_name.lower()}_calendar_2025.ics"
     with open(filename, 'w') as f:
         f.write(cal.serialize())
 
     return filename
 
 if __name__ == "__main__":
-    # Get arguments from the command line
     if len(sys.argv) != 3:
         print("Usage: python calendar_generator.py <json_path> <calendar_name>")
         sys.exit(1)
@@ -146,7 +124,6 @@ if __name__ == "__main__":
     calendar_name = sys.argv[2]
 
     try:
-        # Generate the calendar
         ics_file = create_calendar(json_path, calendar_name)
         print(f"Calendar generated: {ics_file}")
     except Exception as e:
