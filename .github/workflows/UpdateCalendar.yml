@@ -30,16 +30,17 @@ jobs:
         python -m pip install --upgrade pip
         pip install ics requests
 
-    # This step runs on all branches for testing
+    # Run tests on any branch
     - name: Test Calendar Generation
+      if: github.ref != 'refs/heads/main' && github.ref != 'refs/heads/master'
       run: |
-        python scripts/update_webcal_script.py f1_schedule_2025.json F1 test --dry-run
-        python scripts/update_webcal_script.py f2_schedule_2025.json F2 test --dry-run
-        python scripts/update_webcal_script.py f3_schedule_2025.json F3 test --dry-run
+        python scripts/update_webcal_script.py f1_schedule_2025.json F1 test-gist --dry-run
+        python scripts/update_webcal_script.py f2_schedule_2025.json F2 test-gist --dry-run
+        python scripts/update_webcal_script.py f3_schedule_2025.json F3 test-gist --dry-run
 
-    # This step only runs on main/master branch
+    # Run actual update on main/master branch
     - name: Update iCal Gists
-      if: github.ref == 'refs/heads/main'
+      if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
       env:
         GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
