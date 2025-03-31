@@ -1,17 +1,13 @@
 name: Update Calendar
 on:
-  # Run on schedule
-  #schedule:
-  #  - cron: '0 0 * * *'  # Run daily at midnight UTC
-
-  # Also run when the JSON file changes
+  # Run on any branch when JSON files change or  when scripts are updated
   push:
     paths:
       - 'f1_schedule_2025.json'
       - 'f2_schedule_2025.json'
       - 'f3_schedule_2025.json'
-#      - 'scripts/update_webcal_script.py'
-#      - 'scripts/calendar_generator.py'
+      - 'scripts/update_webcal_script.py'
+      - 'scripts/calendar_generator.py'
 
   # Allow manual triggering
   workflow_dispatch:
@@ -34,7 +30,16 @@ jobs:
         python -m pip install --upgrade pip
         pip install ics requests
 
-    - name: Update Calendars
+    # This step runs on all branches for testing
+    - name: Test Calendar Generation
+      run: |
+        python scripts/update_webcal_script.py f1_schedule_2025.json F1 test --dry-run
+        python scripts/update_webcal_script.py f2_schedule_2025.json F2 test --dry-run
+        python scripts/update_webcal_script.py f3_schedule_2025.json F3 test --dry-run
+
+    # This step only runs on main/master branch
+    - name: Update iCal Gists
+      if: github.ref == 'refs/heads/main'
       env:
         GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |

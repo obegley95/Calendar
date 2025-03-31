@@ -28,20 +28,7 @@ SESSION_EMOJIS = {
     'fp2': '🏎️',
     'fp3': '🏎️',
     'race': '🏁',
-    'sprintQualifying': '⏱️'
-}
-
-# Map session types to calendar colors
-SESSION_COLORS = {
-    'practice': '#4CAF50',  # Green for practice
-    'qualifying': '#FF9800',  # Orange for qualifying
-    'sprint': '#2196F3',  # Blue for sprint
-    'feature': '#F44336',  # Red for feature
-    'fp1': '#4CAF50',  # Green for FP1
-    'fp2': '#4CAF50',  # Green for FP2
-    'fp3': '#4CAF50',  # Green for FP3
-    'race': '#F44336',  # Red for race
-    'sprintQualifying': '#FF9800'  # Orange for sprint qualifying
+    'sprintqualifying': '⏱️'
 }
 
 def create_calendar(json_path, calendar_name):
@@ -119,10 +106,6 @@ def create_calendar(json_path, calendar_name):
 
             # Add categories for better filtering
             event.categories = ['Motorsport', calendar_name, display_session]
-
-            # Set color based on session type
-            session_color = SESSION_COLORS.get(session_type.lower(), '#9C27B0')  # Default to purple
-            event.extra.append(ContentLine(name="X-APPLE-CALENDAR-COLOR", value=session_color))
 
             # Convert ISO timestamp to datetime
             try:
