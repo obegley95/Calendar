@@ -10,10 +10,6 @@ def update_calendar(json_path, calendar_name, gist_id, dry_run=False):
     # Get credentials from environment variables (set by GitHub Actions)
     GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 
-    if not GITHUB_TOKEN or not gist_id:
-        print("Error: Missing required GitHub token or Gist ID")
-        return False
-
     # Generate the calendar
     ics_file = create_calendar(json_path, calendar_name)
     print(f"Successfully generated {calendar_name} calendar from {json_path}")
@@ -23,6 +19,10 @@ def update_calendar(json_path, calendar_name, gist_id, dry_run=False):
         print(f"Dry run: Calendar generated but not updating Gist (filename: {ics_file})")
         return True
 
+    if not GITHUB_TOKEN or not gist_id:
+        print("Error: Missing required GitHub token or Gist ID")
+        return False
+    
     # Read the ICS content
     with open(ics_file, 'r') as f:
         ics_content = f.read()
