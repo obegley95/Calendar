@@ -4,19 +4,25 @@ import os
 import sys
 from calendar_generator import create_calendar
 
-def update_calendar(json_path, calendar_name, gist_id):
+def update_calendar(json_path, calendar_name, gist_id, dry_run=False):
     """Update the calendar ICS file in a GitHub Gist based on a JSON file"""
 
     # Get credentials from environment variables (set by GitHub Actions)
     GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 
+    # Generate the calendar
+    ics_file = create_calendar(json_path, calendar_name)
+    print(f"Successfully generated {calendar_name} calendar from {json_path}")
+
+    # If dry run, stop here
+    if dry_run:
+        print(f"Dry run: Calendar generated but not updating Gist (filename: {ics_file})")
+        return True
+
     if not GITHUB_TOKEN or not gist_id:
         print("Error: Missing required GitHub token or Gist ID")
         return False
-
-    # Generate the calendar
-    ics_file = create_calendar(json_path, calendar_name)
-
+    
     # Read the ICS content
     with open(ics_file, 'r') as f:
         ics_content = f.read()
@@ -50,11 +56,16 @@ def update_calendar(json_path, calendar_name, gist_id):
 if __name__ == "__main__":
     # Parse command line arguments
     if len(sys.argv) < 4:
-        print("Usage: python update_calendar.py <json_path> <calendar_name> <gist_id>")
+        print("Usage: python update_calendar.py <json_path> <calendar_name> <gist_id> [--dry-run]")
         sys.exit(1)
 
     json_path = sys.argv[1]
     calendar_name = sys.argv[2]
     gist_id = sys.argv[3]
+    
+    # Check for dry run flag
+    dry_run = False
+    if len(sys.argv) > 4 and sys.argv[4] == "--dry-run":
+        dry_run = True
 
-    update_calendar(json_path, calendar_name, gist_id)
+    update_calendar(json_path, calendar_name, gist_id, dry_run)

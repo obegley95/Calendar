@@ -18,17 +18,30 @@ SESSION_DURATIONS = {
     'sprintQualifying': timedelta(minutes=30)
 }
 
+# Map session types to emojis
+SESSION_EMOJIS = {
+    'practice': '🏎️',
+    'qualifying': '⏱️',
+    'sprint': '🏎️',
+    'feature': '🏁',
+    'fp1': '🏎️',
+    'fp2': '🏎️',
+    'fp3': '🏎️',
+    'race': '🏁',
+    'sprintqualifying': '⏱️'
+}
+
 def create_calendar(json_path, calendar_name):
     """
     Generate an ICS calendar file from a schedule JSON
-    
+
     Args:
         json_path: Path to the JSON file containing race schedule data
         calendar_name: Name of the calendar (e.g., F1 or F2)
-        
+
     Returns:
         str: Path to the generated ICS file
-        
+
     Raises:
         FileNotFoundError: If the JSON file doesn't exist
         json.JSONDecodeError: If the JSON file is invalid
@@ -36,11 +49,11 @@ def create_calendar(json_path, calendar_name):
     # Validate inputs
     if not calendar_name:
         raise ValueError("Calendar name cannot be empty")
-    
+
     # Check if file exists
     if not os.path.exists(json_path):
         raise FileNotFoundError(f"JSON file not found: {json_path}")
-    
+
     # Load the JSON data
     try:
         with open(json_path, 'r') as f:
@@ -51,9 +64,19 @@ def create_calendar(json_path, calendar_name):
     # Create a new calendar
     cal = Calendar()
     cal.creator = f"{calendar_name} Schedule Calendar Generator"
-    
+
     # Set calendar metadata
-    cal.extra.append(ContentLine(name="X-WR-CALNAME", value=f"{calendar_name} Calendar"))
+    cal.extra.append(ContentLine(name="X-WR-CALNAME", value=f"{calendar_name} Racing Calendar 2025"))
+    cal.extra.append(ContentLine(name="X-WR-TIMEZONE", value="UTC"))
+
+    # Check for duplicate rounds and fix if necessary
+    rounds = {}
+    for race in data.get('races', []):
+        round_num = race.get('round')
+        if round_num in rounds:
+            print(f"Warning: Duplicate round number {round_num} detected for {race['name']} and {rounds[round_num]['name']}")
+        else:
+            rounds[round_num] = race
 
     # Process each race
     for race in data.get('races', []):
@@ -71,14 +94,18 @@ def create_calendar(json_path, calendar_name):
             else:
                 display_session = session_type.capitalize()
 
-            # Set event details
-            event.name = f"{calendar_name} {race['name']} - {display_session}"
-            event.description = f"Round {race['round']} - {race['location']}"
+            # Set event details with emoji
+            emoji = SESSION_EMOJIS.get(session_type.lower(), '')
+            event.name = f"{emoji} {race['name']} - {display_session}"
+            event.description = f"Round {race['round']} - {race['location']} - {display_session} Session"
 
             # Add location data
             event.location = race['location']
             if 'latitude' in race and 'longitude' in race:
                 event.geo = (race['latitude'], race['longitude'])
+
+            # Add categories for better filtering
+            event.categories = ['Motorsport', calendar_name, display_session]
 
             # Convert ISO timestamp to datetime
             try:
@@ -102,7 +129,7 @@ def create_calendar(json_path, calendar_name):
 
     # Create output filename
     filename = f"{calendar_name.lower()}_calendar_2025.ics"
-    
+
     # Write to file
     with open(filename, 'w') as f:
         f.write(cal.serialize())
