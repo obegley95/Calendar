@@ -94,20 +94,29 @@ def create_calendar(json_path, calendar_name):
             event.categories = ['Motorsport', calendar_name, display_session]
             event.begin = start_time
             event.end = start_time + get_session_duration(calendar_name, session_type)
+            
+            # Add two alarms: 1 hour and 15 minutes before the event
+            event.alarms = [
+                {'action': 'display', 'trigger': timedelta(hours=-1)},
+                {'action': 'display', 'trigger': timedelta(minutes=-15)}
+            ]
+            
             cal.events.add(event)
 
-        fantasy_deadline = get_fantasy_deadline(race['sessions'])
-        if fantasy_deadline:
-            fantasy_event = Event()
-            fantasy_event.name = f"🕹️ F1 Fantasy Deadline - Round {race['round']}"
-            fantasy_event.description = f"Fantasy deadline for {race['name']} (Round {race['round']})"
-            fantasy_event.begin = fantasy_deadline
-            fantasy_event.end = fantasy_deadline
-            fantasy_event.categories = ['Fantasy Deadline', 'Motorsport', calendar_name]
-            fantasy_event.alarms = [
-                {'action': 'display', 'trigger': timedelta(minutes=-30)}  # 30 minutes before
-            ]
-            cal.events.add(fantasy_event)
+        # Only add fantasy deadlines for F1 calendar
+        if calendar_name.upper() == 'F1':
+            fantasy_deadline = get_fantasy_deadline(race['sessions'])
+            if fantasy_deadline:
+                fantasy_event = Event()
+                fantasy_event.name = f"🕹️ F1 Fantasy Deadline - Round {race['round']}"
+                fantasy_event.description = f"Fantasy deadline for {race['name']} (Round {race['round']})"
+                fantasy_event.begin = fantasy_deadline
+                fantasy_event.end = fantasy_deadline
+                fantasy_event.categories = ['Fantasy Deadline', 'Motorsport', calendar_name]
+                fantasy_event.alarms = [
+                    {'action': 'display', 'trigger': timedelta(minutes=-30)}  # 30 minutes before
+                ]
+                cal.events.add(fantasy_event)
 
     filename = f"{calendar_name.lower()}_calendar_2025.ics"
     with open(filename, 'w') as f:
