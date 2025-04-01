@@ -75,7 +75,7 @@ def create_calendar(json_path, calendar_name):
 
     cal = Calendar()
     cal.creator = f"{calendar_name} Schedule Calendar Generator"
-    cal.extra.append(ContentLine(name="X-WR-CALNAME", value=f"{calendar_name} Racing Calendar 2025"))
+    cal.extra.append(ContentLine(name="X-WR-CALNAME", value=f"{calendar_name} Calendar"))
     cal.extra.append(ContentLine(name="X-WR-TIMEZONE", value="UTC"))
 
     for race in data.get('races', []):
@@ -99,7 +99,7 @@ def create_calendar(json_path, calendar_name):
         fantasy_deadline = get_fantasy_deadline(race['sessions'])
         if fantasy_deadline:
             fantasy_event = Event()
-            fantasy_event.name = f"🔵 F1 Fantasy Deadline - Round {race['round']}"
+            fantasy_event.name = f"🕹️ F1 Fantasy Deadline - Round {race['round']}"
             fantasy_event.description = f"Fantasy deadline for {race['name']} (Round {race['round']})"
             fantasy_event.begin = fantasy_deadline
             fantasy_event.end = fantasy_deadline
