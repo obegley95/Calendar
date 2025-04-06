@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racing Calendar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .series {
+            margin-bottom: 2rem;
+        }
+        .series h2 {
+            color: #333;
+        }
+        .race {
+            background: white;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .race h3 {
+            margin: 0;
+        }
+        .race p {
+            margin: 0.5rem 0;
+        }
+        .subscription-links {
+            margin-top: 2rem;
+            padding: 1rem;
+            background: #e9e9e9;
+            border-radius: 5px;
+        }
+        .subscription-links a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Racing Calendar</h1>
+    </header>
+    <div class="container">
+        <div class="series">
+            <h2>Upcoming Races</h2>
+            {% for race in races %}
+            <div class="race" style="border-left: 5px solid {{ race.color }}">
+                <h3>{{ race.name }}</h3>
+                <p><strong>Series:</strong> {{ race.series }}</p>
+                <p><strong>Location:</strong> {{ race.location }}</p>
+                <p><strong>Date:</strong> {{ race.date.strftime('%Y-%m-%d %H:%M:%S') }}</p>
+                <p><strong>Round:</strong> {{ race.round }}</p>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="subscription-links">
+            <h2>Subscribe to Calendars</h2>
+            <ul>
+                {% for series, link in subscription_links.items() %}
+                <li><a href="{{ link }}" target="_blank">{{ series }} Calendar</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

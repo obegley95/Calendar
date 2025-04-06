@@ -11,19 +11,19 @@ SERIES = {
         'name': 'Formula 1',
         'json_path': '_data/f1_schedule_2025.json',
         'gist_id': os.environ.get('F1_GIST_ID', ''),
-        'color': '#e10600'  # F1 red
+        'color': '#e10600'  # F1 Red
     },
     'F2': {
         'name': 'Formula 2',
         'json_path': '_data/f2_schedule_2025.json',
         'gist_id': os.environ.get('F2_GIST_ID', ''),
-        'color': '#0090D0'  # F2 blue
+        'color': '#0090D0'  # F2 Blue
     },
     'F3': {
         'name': 'Formula 3',
         'json_path': '_data/f3_schedule_2025.json',
         'gist_id': os.environ.get('F3_GIST_ID', ''),
-        'color': '#949398'  # F3 gray
+        'color': '#949398'  # F3 Gray
     }
 }
 
