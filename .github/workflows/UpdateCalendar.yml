@@ -1,6 +1,6 @@
 name: Update Calendar
 on:
-  # Run on any branch when JSON files change or  when scripts are updated
+  # Run on any branch when JSON files change or when scripts are updated
   push:
     paths:
       - '_data/f1_schedule_2025.json'
@@ -34,9 +34,17 @@ jobs:
     - name: Test Calendar Generation
       if: github.ref != 'refs/heads/main' && github.ref != 'refs/heads/master'
       run: |
+        echo "Testing F1 calendar generation..."
         python scripts/update_webcal_script.py _data/f1_schedule_2025.json F1 test-gist --dry-run
+        echo "Generated test F1 calendar at $(pwd)/f1_calendar_2025.ics"
+        
+        echo "Testing F2 calendar generation..."
         python scripts/update_webcal_script.py _data/f2_schedule_2025.json F2 test-gist --dry-run
+        echo "Generated test F2 calendar at $(pwd)/f2_calendar_2025.ics"
+        
+        echo "Testing F3 calendar generation..."
         python scripts/update_webcal_script.py _data/f3_schedule_2025.json F3 test-gist --dry-run
+        echo "Generated test F3 calendar at $(pwd)/f3_calendar_2025.ics"
 
     # Run actual update on main/master branch
     - name: Update iCal Gists
@@ -44,6 +52,14 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
+        echo "Updating F1 calendar..."
         python scripts/update_webcal_script.py _data/f1_schedule_2025.json F1 ${{ secrets.F1_GIST_ID }}
+        echo "F1 calendar updated at $(pwd)/f1_calendar_2025.ics"
+        
+        echo "Updating F2 calendar..."
         python scripts/update_webcal_script.py _data/f2_schedule_2025.json F2 ${{ secrets.F2_GIST_ID }}
+        echo "F2 calendar updated at $(pwd)/f2_calendar_2025.ics"
+        
+        echo "Updating F3 calendar..."
         python scripts/update_webcal_script.py _data/f3_schedule_2025.json F3 ${{ secrets.F3_GIST_ID }}
+        echo "F3 calendar updated at $(pwd)/f3_calendar_2025.ics"

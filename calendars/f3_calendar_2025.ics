@@ -1,0 +1,486 @@
+BEGIN:VCALENDAR
+X-WR-CALNAME:F3 Calendar
+X-WR-TIMEZONE:UTC
+VERSION:2.0
+PRODID:F3 Schedule Calendar Generator
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Sprint
+DESCRIPTION:Round 3 - Imola - Sprint Session
+DTEND:20250517T152500Z
+GEO:44.344576;11.713808
+LOCATION:Imola
+DTSTART:20250517T144500Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Emilia Romagna 2025 - Sprint
+UID:618e2c01-4fde-4bd8-984b-b6e75b5322db@618e.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Feature
+DESCRIPTION:Round 1 - Melbourne - Feature Session
+DTEND:20250315T230000Z
+GEO:-37.837300;144.966600
+LOCATION:Melbourne
+DTSTART:20250315T220000Z
+SUMMARY:🏁 FIA FORMULA 3: The Championship Australia 2025 - Feature
+UID:f1c87290-adc4-4d54-82a0-40e0c2901e23@f1c8.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Qualifying
+DESCRIPTION:Round 4 - Monte Carlo - Qualifying Session
+DTEND:20250523T142500Z
+GEO:43.733800;7.421500
+LOCATION:Monte Carlo
+DTSTART:20250523T135500Z
+SUMMARY:⏱️ FIA FORMULA 3: The Championship Monaco 2025 - Qualifying
+UID:b4faaf16-e70f-4a20-b234-bd2589f15f23@b4fa.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Feature
+DESCRIPTION:Round 3 - Imola - Feature Session
+DTEND:20250518T082000Z
+GEO:44.344576;11.713808
+LOCATION:Imola
+DTSTART:20250518T072000Z
+SUMMARY:🏁 FIA FORMULA 3: The Championship Emilia Romagna 2025 - Feature
+UID:df4653f7-06ac-469d-a073-caadef7cd81d@df46.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Practice
+DESCRIPTION:Round 2 - Sakhir - Practice Session
+DTEND:20250411T084000Z
+GEO:26.037000;50.511200
+LOCATION:Sakhir
+DTSTART:20250411T075500Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Bahrain 2025 - Practice
+UID:17a9178b-8fa4-4b34-96f4-49728c16e7a0@17a9.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Sprint
+DESCRIPTION:Round 4 - Monte Carlo - Sprint Session
+DTEND:20250524T152500Z
+GEO:43.733800;7.421500
+LOCATION:Monte Carlo
+DTSTART:20250524T144500Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Monaco 2025 - Sprint
+UID:43c56aca-c5a8-437b-829d-d15d53bfcb94@43c5.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Qualifying
+DESCRIPTION:Round 10 - Monza - Qualifying Session
+DTEND:20250905T102500Z
+GEO:45.616900;9.282500
+LOCATION:Monza
+DTSTART:20250905T095500Z
+SUMMARY:⏱️ FIA FORMULA 3: The Championship Italy 2025 - Qualifying
+UID:ef773617-1c22-429e-8f1f-1846011759c1@ef77.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Feature
+DESCRIPTION:Round 9 - Budapest - Feature Session
+DTEND:20250803T082000Z
+GEO:47.583000;19.252600
+LOCATION:Budapest
+DTSTART:20250803T072000Z
+SUMMARY:🏁 FIA FORMULA 3: The Championship Hungary - Feature
+UID:7a4b6465-d305-43fe-b555-a1671c8753f5@7a4b.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Sprint
+DESCRIPTION:Round 9 - Budapest - Sprint Session
+DTEND:20250802T152500Z
+GEO:47.583000;19.252600
+LOCATION:Budapest
+DTSTART:20250802T144500Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Hungary - Sprint
+UID:aef957a0-32f9-49be-9e67-89cfc8c50611@aef9.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Practice
+DESCRIPTION:Round 6 - Spielberg - Practice Session
+DTEND:20250627T073000Z
+GEO:47.222500;14.760700
+LOCATION:Spielberg
+DTSTART:20250627T064500Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Austria 2025 - Practice
+UID:234855e8-ebf4-493e-959c-9b8355391ed6@2348.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Feature
+DESCRIPTION:Round 5 - Catalunya - Feature Session
+DTEND:20250601T082000Z
+GEO:41.563800;2.258500
+LOCATION:Catalunya
+DTSTART:20250601T072000Z
+SUMMARY:🏁 FIA FORMULA 3: The Championship Spain 2025 - Feature
+UID:36254771-46d2-41cb-b00e-0b29cef4f2ce@3625.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Practice
+DESCRIPTION:Round 10 - Monza - Practice Session
+DTEND:20250905T073000Z
+GEO:45.616900;9.282500
+LOCATION:Monza
+DTSTART:20250905T064500Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Italy 2025 - Practice
+UID:ce17677e-a9a1-496b-b9d7-17ffece53697@ce17.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Practice
+DESCRIPTION:Round 4 - Monte Carlo - Practice Session
+DTEND:20250522T073000Z
+GEO:43.733800;7.421500
+LOCATION:Monte Carlo
+DTSTART:20250522T064500Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Monaco 2025 - Practice
+UID:833df558-6b53-4841-a6d3-3c35cdeff3e6@833d.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Sprint
+DESCRIPTION:Round 5 - Catalunya - Sprint Session
+DTEND:20250531T152500Z
+GEO:41.563800;2.258500
+LOCATION:Catalunya
+DTSTART:20250531T144500Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Spain 2025 - Sprint
+UID:844b4ee0-3d60-4c5b-87e4-954d0e1bcd18@844b.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Feature
+DESCRIPTION:Round 10 - Monza - Feature Session
+DTEND:20250907T082000Z
+GEO:45.616900;9.282500
+LOCATION:Monza
+DTSTART:20250907T072000Z
+SUMMARY:🏁 FIA FORMULA 3: The Championship Italy 2025 - Feature
+UID:6941032f-7756-44d8-af47-e7f8233ae64c@6941.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Sprint
+DESCRIPTION:Round 8 - Spa-Francorchamps - Sprint Session
+DTEND:20250726T152500Z
+GEO:50.444000;5.968700
+LOCATION:Spa-Francorchamps
+DTSTART:20250726T144500Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Belgium 2025 - Sprint
+UID:80d1c25c-35cc-4f3d-82b9-9f7804ccf7a4@80d1.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Qualifying
+DESCRIPTION:Round 7 - Silverstone - Qualifying Session
+DTEND:20250704T112500Z
+GEO:52.070600;-1.017400
+LOCATION:Silverstone
+DTSTART:20250704T105500Z
+SUMMARY:⏱️ FIA FORMULA 3: The Championship Britain 2025 - Qualifying
+UID:42786fd2-1eeb-43d7-af6a-a956063237aa@4278.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Qualifying
+DESCRIPTION:Round 6 - Spielberg - Qualifying Session
+DTEND:20250627T102500Z
+GEO:47.222500;14.760700
+LOCATION:Spielberg
+DTSTART:20250627T095500Z
+SUMMARY:⏱️ FIA FORMULA 3: The Championship Austria 2025 - Qualifying
+UID:d6b9ce4e-d938-440a-b38e-2286ea451f21@d6b9.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Sprint
+DESCRIPTION:Round 1 - Melbourne - Sprint Session
+DTEND:20250315T005500Z
+GEO:-37.837300;144.966600
+LOCATION:Melbourne
+DTSTART:20250315T001500Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Australia 2025 - Sprint
+UID:e8f29123-1cc3-40f8-8b35-ed872d97e510@e8f2.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Sprint
+DESCRIPTION:Round 6 - Spielberg - Sprint Session
+DTEND:20250628T152500Z
+GEO:47.222500;14.760700
+LOCATION:Spielberg
+DTSTART:20250628T144500Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Austria 2025 - Sprint
+UID:2b9ec71e-8e5d-4709-bf46-25b93b783348@2b9e.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Feature
+DESCRIPTION:Round 7 - Silverstone - Feature Session
+DTEND:20250706T092000Z
+GEO:52.070600;-1.017400
+LOCATION:Silverstone
+DTSTART:20250706T082000Z
+SUMMARY:🏁 FIA FORMULA 3: The Championship Britain 2025 - Feature
+UID:52f3be2d-bfbe-40e6-8c4d-f4c6875e8945@52f3.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Qualifying
+DESCRIPTION:Round 8 - Spa-Francorchamps - Qualifying Session
+DTEND:20250725T102500Z
+GEO:50.444000;5.968700
+LOCATION:Spa-Francorchamps
+DTSTART:20250725T095500Z
+SUMMARY:⏱️ FIA FORMULA 3: The Championship Belgium 2025 - Qualifying
+UID:15191647-9bd8-48c9-bd23-97434876a73d@1519.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Qualifying
+DESCRIPTION:Round 9 - Budapest - Qualifying Session
+DTEND:20250801T102500Z
+GEO:47.583000;19.252600
+LOCATION:Budapest
+DTSTART:20250801T095500Z
+SUMMARY:⏱️ FIA FORMULA 3: The Championship Hungary - Qualifying
+UID:45cc4546-06dc-4d77-9ad9-c5deff423054@45cc.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Feature
+DESCRIPTION:Round 4 - Monte Carlo - Feature Session
+DTEND:20250525T082000Z
+GEO:43.733800;7.421500
+LOCATION:Monte Carlo
+DTSTART:20250525T072000Z
+SUMMARY:🏁 FIA FORMULA 3: The Championship Monaco 2025 - Feature
+UID:bf7c21ff-b9c5-4c06-a9bc-4fa7ccf6d01a@bf7c.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Qualifying
+DESCRIPTION:Round 5 - Catalunya - Qualifying Session
+DTEND:20250530T102500Z
+GEO:41.563800;2.258500
+LOCATION:Catalunya
+DTSTART:20250530T095500Z
+SUMMARY:⏱️ FIA FORMULA 3: The Championship Spain 2025 - Qualifying
+UID:0d3fb290-8ab9-418f-bf75-ffe2bec2ec88@0d3f.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Feature
+DESCRIPTION:Round 2 - Sakhir - Feature Session
+DTEND:20250413T105500Z
+GEO:26.037000;50.511200
+LOCATION:Sakhir
+DTSTART:20250413T095500Z
+SUMMARY:🏁 FIA FORMULA 3: The Championship Bahrain 2025 - Feature
+UID:b637167f-e2d2-4f2f-8db1-221a54e39632@b637.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Practice
+DESCRIPTION:Round 8 - Spa-Francorchamps - Practice Session
+DTEND:20250725T073000Z
+GEO:50.444000;5.968700
+LOCATION:Spa-Francorchamps
+DTSTART:20250725T064500Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Belgium 2025 - Practice
+UID:d41f70a4-d521-4dc9-b618-f708df40684e@d41f.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Qualifying
+DESCRIPTION:Round 3 - Imola - Qualifying Session
+DTEND:20250516T102500Z
+GEO:44.344576;11.713808
+LOCATION:Imola
+DTSTART:20250516T095500Z
+SUMMARY:⏱️ FIA FORMULA 3: The Championship Emilia Romagna 2025 - Qualifying
+UID:ecd3de84-48a4-4b68-88bc-2d13cfa09259@ecd3.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Qualifying
+DESCRIPTION:Round 1 - Melbourne - Qualifying Session
+DTEND:20250314T033000Z
+GEO:-37.837300;144.966600
+LOCATION:Melbourne
+DTSTART:20250314T030000Z
+SUMMARY:⏱️ FIA FORMULA 3: The Championship Australia 2025 - Qualifying
+UID:c7be009d-33a0-4230-b6ba-c2b1dec9b2cf@c7be.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Sprint
+DESCRIPTION:Round 2 - Sakhir - Sprint Session
+DTEND:20250412T105500Z
+GEO:26.037000;50.511200
+LOCATION:Sakhir
+DTSTART:20250412T101500Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Bahrain 2025 - Sprint
+UID:8c067069-80ad-4a4f-a694-461820c3a8be@8c06.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Practice
+DESCRIPTION:Round 7 - Silverstone - Practice Session
+DTEND:20250704T083000Z
+GEO:52.070600;-1.017400
+LOCATION:Silverstone
+DTSTART:20250704T074500Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Britain 2025 - Practice
+UID:7a88c5c7-59a2-46f2-aa7a-2dc5d3f94f62@7a88.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Practice
+DESCRIPTION:Round 3 - Imola - Practice Session
+DTEND:20250516T073000Z
+GEO:44.344576;11.713808
+LOCATION:Imola
+DTSTART:20250516T064500Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Emilia Romagna 2025 - Practice
+UID:8973cdda-f9f5-4d8c-b0c1-9bf51779d30c@8973.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Qualifying
+DESCRIPTION:Round 2 - Sakhir - Qualifying Session
+DTEND:20250411T133000Z
+GEO:26.037000;50.511200
+LOCATION:Sakhir
+DTSTART:20250411T130000Z
+SUMMARY:⏱️ FIA FORMULA 3: The Championship Bahrain 2025 - Qualifying
+UID:fdda4909-eb7c-4136-bc14-227a38806103@fdda.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Practice
+DESCRIPTION:Round 5 - Catalunya - Practice Session
+DTEND:20250530T073000Z
+GEO:41.563800;2.258500
+LOCATION:Catalunya
+DTSTART:20250530T064500Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Spain 2025 - Practice
+UID:320b3974-8dc0-4722-9ba7-dbad98ac007a@320b.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Sprint
+DESCRIPTION:Round 10 - Monza - Sprint Session
+DTEND:20250906T152500Z
+GEO:45.616900;9.282500
+LOCATION:Monza
+DTSTART:20250906T144500Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Italy 2025 - Sprint
+UID:ed6362aa-c149-4421-bf24-263783596674@ed63.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Feature
+DESCRIPTION:Round 6 - Spielberg - Feature Session
+DTEND:20250629T082000Z
+GEO:47.222500;14.760700
+LOCATION:Spielberg
+DTSTART:20250629T072000Z
+SUMMARY:🏁 FIA FORMULA 3: The Championship Austria 2025 - Feature
+UID:dc522aea-6dbe-473b-b29a-918624eb3b14@dc52.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Sprint
+DESCRIPTION:Round 7 - Silverstone - Sprint Session
+DTEND:20250705T162500Z
+GEO:52.070600;-1.017400
+LOCATION:Silverstone
+DTSTART:20250705T154500Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Britain 2025 - Sprint
+UID:94d45d4f-0521-466f-bee7-bb650caf8581@94d4.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Practice
+DESCRIPTION:Round 1 - Melbourne - Practice Session
+DTEND:20250313T223500Z
+GEO:-37.837300;144.966600
+LOCATION:Melbourne
+DTSTART:20250313T215000Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Australia 2025 - Practice
+UID:26bd923d-e40c-47e7-99c0-51632d84463d@26bd.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Feature
+DESCRIPTION:Round 8 - Spa-Francorchamps - Feature Session
+DTEND:20250727T082000Z
+GEO:50.444000;5.968700
+LOCATION:Spa-Francorchamps
+DTSTART:20250727T072000Z
+SUMMARY:🏁 FIA FORMULA 3: The Championship Belgium 2025 - Feature
+UID:9448d0e0-8eae-436e-970c-fc163ab0bc57@9448.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F3,Practice
+DESCRIPTION:Round 9 - Budapest - Practice Session
+DTEND:20250801T073000Z
+GEO:47.583000;19.252600
+LOCATION:Budapest
+DTSTART:20250801T064500Z
+SUMMARY:🏎️ FIA FORMULA 3: The Championship Hungary - Practice
+UID:48a0c523-1b1f-4b7b-8b59-32cf957848ac@48a0.org
+END:VEVENT
+END:VCALENDAR

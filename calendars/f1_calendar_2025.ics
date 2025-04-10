@@ -1,0 +1,1662 @@
+BEGIN:VCALENDAR
+X-WR-CALNAME:F1 Calendar
+X-WR-TIMEZONE:UTC
+VERSION:2.0
+PRODID:F1 Schedule Calendar Generator
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 17 - Baku - Qualifying Session
+DTEND:20250920T130000Z
+GEO:40.369900;49.843300
+LOCATION:Baku
+DTSTART:20250920T120000Z
+SUMMARY:⏱️ FIA FORMULA 1: Azerbaijan Grand Prix 2025 - Qualifying
+UID:70de4063-f758-4287-9499-23ab829f3d2b@70de.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Bahrain Grand Prix 2025 (Round 4)
+DTEND:20250412T160000Z
+DTSTART:20250412T160000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 4
+UID:f3803db8-2004-4ec3-980e-b68d4089aaaa@f380.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 1 - Melbourne - Qualifying Session
+DTEND:20250315T060000Z
+GEO:-37.837300;144.966600
+LOCATION:Melbourne
+DTSTART:20250315T050000Z
+SUMMARY:⏱️ FIA FORMULA 1: Australian Grand Prix 2025 - Qualifying
+UID:5a9481ac-39dc-4739-97b5-b689686cc260@5a94.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 12 - Silverstone - Race Session
+DTEND:20250706T160000Z
+GEO:52.070600;-1.017400
+LOCATION:Silverstone
+DTSTART:20250706T140000Z
+SUMMARY:🏁 FIA FORMULA 1: British Grand Prix 2025 - Race
+UID:fdd72470-80ed-4730-b2f3-7b4127ce890a@fdd7.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 19 - Austin - FP1 Session
+DTEND:20251017T183000Z
+GEO:30.132800;-97.641100
+LOCATION:Austin
+DTSTART:20251017T173000Z
+SUMMARY:🏎️ FIA FORMULA 1: United States Grand Prix 2025 - FP1
+UID:4806f86c-51ac-4049-9f25-75c39b657192@4806.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 24 - Yas Marina - Qualifying Session
+DTEND:20251206T150000Z
+GEO:24.482100;54.348200
+LOCATION:Yas Marina
+DTSTART:20251206T140000Z
+SUMMARY:⏱️ FIA FORMULA 1: Abu Dhabi Grand Prix 2025 - Qualifying
+UID:7fc6b1da-0b33-494d-aa94-0797604a50a6@7fc6.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 13 - Spa-Francorchamps - Race Session
+DTEND:20250727T150000Z
+GEO:50.444000;5.968700
+LOCATION:Spa-Francorchamps
+DTSTART:20250727T130000Z
+SUMMARY:🏁 FIA FORMULA 1: Belgian Grand Prix 2025 - Race
+UID:02a742fe-b7ac-4961-9ead-b68c0f6b92a3@02a7.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 6 - Miami - Qualifying Session
+DTEND:20250503T210000Z
+GEO:25.957764;-80.238835
+LOCATION:Miami
+DTSTART:20250503T200000Z
+SUMMARY:⏱️ FIA FORMULA 1: Miami Grand Prix 2025 - Qualifying
+UID:b8c62c27-10e5-4afa-9e0c-167273bbe002@b8c6.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Chinese Grand Prix 2025 (Round 2)
+DTEND:20250322T030000Z
+DTSTART:20250322T030000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 2
+UID:741c942a-bfdd-4db4-a946-41def2a4da5c@741c.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 6 - Miami - FP1 Session
+DTEND:20250502T173000Z
+GEO:25.957764;-80.238835
+LOCATION:Miami
+DTSTART:20250502T163000Z
+SUMMARY:🏎️ FIA FORMULA 1: Miami Grand Prix 2025 - FP1
+UID:5914a892-6870-4fa0-a442-46e25da897bc@5914.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 2 - Shanghai - Qualifying Session
+DTEND:20250322T080000Z
+GEO:31.380700;121.249800
+LOCATION:Shanghai
+DTSTART:20250322T070000Z
+SUMMARY:⏱️ FIA FORMULA 1: Chinese Grand Prix 2025 - Qualifying
+UID:5bf93807-d830-4be0-b3c5-1bec21478e75@5bf9.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 7 - Imola - Qualifying Session
+DTEND:20250517T150000Z
+GEO:44.344576;11.713808
+LOCATION:Imola
+DTSTART:20250517T140000Z
+SUMMARY:⏱️ FIA FORMULA 1: Emilia Romagna Grand Prix 2025 - Qualifying
+UID:c7828de3-c3bc-42a3-976d-717b662fe994@c782.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Canadian Grand Prix 2025 (Round 10)
+DTEND:20250614T200000Z
+DTSTART:20250614T200000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 10
+UID:fef13130-7128-4dad-b68a-8066435a458a@fef1.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP3
+DESCRIPTION:Round 3 - Suzuka - FP3 Session
+DTEND:20250405T033000Z
+GEO:35.368900;138.925600
+LOCATION:Suzuka
+DTSTART:20250405T023000Z
+SUMMARY:🏎️ FIA FORMULA 1: Japanese Grand Prix 2025 - FP3
+UID:3073f2c8-a2c5-4248-880f-def3486cd49f@3073.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP2
+DESCRIPTION:Round 3 - Suzuka - FP2 Session
+DTEND:20250404T070000Z
+GEO:35.368900;138.925600
+LOCATION:Suzuka
+DTSTART:20250404T060000Z
+SUMMARY:🏎️ FIA FORMULA 1: Japanese Grand Prix 2025 - FP2
+UID:3f2b3f26-739e-4203-ba4e-40d33dd40957@3f2b.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP3
+DESCRIPTION:Round 9 - Catalunya - FP3 Session
+DTEND:20250531T113000Z
+GEO:41.563800;2.258500
+LOCATION:Catalunya
+DTSTART:20250531T103000Z
+SUMMARY:🏎️ FIA FORMULA 1: Spanish Grand Prix 2025 - FP3
+UID:b06fec06-4a26-4ded-8976-883a2cd6e76f@b06f.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP3
+DESCRIPTION:Round 11 - Spielberg - FP3 Session
+DTEND:20250628T113000Z
+GEO:47.222500;14.760700
+LOCATION:Spielberg
+DTSTART:20250628T103000Z
+SUMMARY:🏎️ FIA FORMULA 1: Austrian Grand Prix 2025 - FP3
+UID:5e89f2c1-f6d5-4cbb-a73b-e372b4a2d8f9@5e89.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 3 - Suzuka - Race Session
+DTEND:20250406T070000Z
+GEO:35.368900;138.925600
+LOCATION:Suzuka
+DTSTART:20250406T050000Z
+SUMMARY:🏁 FIA FORMULA 1: Japanese Grand Prix 2025 - Race
+UID:899b02ce-5e50-428d-98b5-1312d71df444@899b.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 23 - Doha - Qualifying Session
+DTEND:20251129T190000Z
+GEO:25.490292;51.453030
+LOCATION:Doha
+DTSTART:20251129T180000Z
+SUMMARY:⏱️ FIA FORMULA 1: Qatar Grand Prix 2025 - Qualifying
+UID:7aab6419-399c-4e60-8473-e241481ba4a4@7aab.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 15 - Zandvoort - Qualifying Session
+DTEND:20250830T140000Z
+GEO:52.388408;4.547122
+LOCATION:Zandvoort
+DTSTART:20250830T130000Z
+SUMMARY:⏱️ FIA FORMULA 1: Dutch Grand Prix 2025 - Qualifying
+UID:17c83d2c-9374-4c5b-acd5-e40e2323a622@17c8.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 1 - Melbourne - FP1 Session
+DTEND:20250314T023000Z
+GEO:-37.837300;144.966600
+LOCATION:Melbourne
+DTSTART:20250314T013000Z
+SUMMARY:🏎️ FIA FORMULA 1: Australian Grand Prix 2025 - FP1
+UID:ecc6c23e-9269-423b-944a-1ebe6c21b10d@ecc6.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 8 - Monte Carlo - FP1 Session
+DTEND:20250523T123000Z
+GEO:43.733800;7.421500
+LOCATION:Monte Carlo
+DTSTART:20250523T113000Z
+SUMMARY:🏎️ FIA FORMULA 1: Monaco Grand Prix 2025 - FP1
+UID:5fe075fe-06a9-4ebb-b7a2-2f173b039a2f@5fe0.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 11 - Spielberg - FP1 Session
+DTEND:20250627T123000Z
+GEO:47.222500;14.760700
+LOCATION:Spielberg
+DTSTART:20250627T113000Z
+SUMMARY:🏎️ FIA FORMULA 1: Austrian Grand Prix 2025 - FP1
+UID:ff3affab-6dfc-48f0-8f73-b6c4b0d1ad4e@ff3a.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Sprint
+DESCRIPTION:Round 6 - Miami - Sprint Session
+DTEND:20250503T163000Z
+GEO:25.957764;-80.238835
+LOCATION:Miami
+DTSTART:20250503T160000Z
+SUMMARY:🏎️ FIA FORMULA 1: Miami Grand Prix 2025 - Sprint
+UID:bde24b41-7c33-4396-9fd3-a7e8abf482a8@bde2.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP2
+DESCRIPTION:Round 12 - Silverstone - FP2 Session
+DTEND:20250704T160000Z
+GEO:52.070600;-1.017400
+LOCATION:Silverstone
+DTSTART:20250704T150000Z
+SUMMARY:🏎️ FIA FORMULA 1: British Grand Prix 2025 - FP2
+UID:b5099e50-fcca-4a20-b120-db81d87a8e62@b509.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 16 - Monza - FP1 Session
+DTEND:20250905T123000Z
+GEO:45.616900;9.282500
+LOCATION:Monza
+DTSTART:20250905T113000Z
+SUMMARY:🏎️ FIA FORMULA 1: Italian Grand Prix 2025 - FP1
+UID:b1e6f887-6999-4248-89f9-2113df22521e@b1e6.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Japanese Grand Prix 2025 (Round 3)
+DTEND:20250405T060000Z
+DTSTART:20250405T060000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 3
+UID:5397f807-ce9d-4789-bf6b-b8e68d75da81@5397.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 22 - Las Vegas - Qualifying Session
+DTEND:20251122T050000Z
+GEO:36.166747;-115.148708
+LOCATION:Las Vegas
+DTSTART:20251122T040000Z
+SUMMARY:⏱️ FIA FORMULA 1: Las Vegas Grand Prix 2025 - Qualifying
+UID:fc2bfade-f3e4-49fb-91b3-6fdd7e5ecbe0@fc2b.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP3
+DESCRIPTION:Round 4 - Sakhir - FP3 Session
+DTEND:20250412T133000Z
+GEO:26.037000;50.511200
+LOCATION:Sakhir
+DTSTART:20250412T123000Z
+SUMMARY:🏎️ FIA FORMULA 1: Bahrain Grand Prix 2025 - FP3
+UID:cdb611fb-5841-438b-9b94-6caec6c6774d@cdb6.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 19 - Austin - Qualifying Session
+DTEND:20251018T220000Z
+GEO:30.132800;-97.641100
+LOCATION:Austin
+DTSTART:20251018T210000Z
+SUMMARY:⏱️ FIA FORMULA 1: United States Grand Prix 2025 - Qualifying
+UID:0064516e-fa50-478b-9943-75afd1f73ed4@0064.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP2
+DESCRIPTION:Round 14 - Budapest - FP2 Session
+DTEND:20250801T160000Z
+GEO:47.583000;19.252600
+LOCATION:Budapest
+DTSTART:20250801T150000Z
+SUMMARY:🏎️ FIA FORMULA 1: Hungarian Grand Prix 2025 - FP2
+UID:46b12c87-af6e-4d82-8326-17e168c6557e@46b1.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 16 - Monza - Race Session
+DTEND:20250907T150000Z
+GEO:45.616900;9.282500
+LOCATION:Monza
+DTSTART:20250907T130000Z
+SUMMARY:🏁 FIA FORMULA 1: Italian Grand Prix 2025 - Race
+UID:9c8df215-3c85-4072-9a44-6c72a2ac260f@9c8d.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Dutch Grand Prix 2025 (Round 15)
+DTEND:20250830T130000Z
+DTSTART:20250830T130000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 15
+UID:54f23fa0-1bc1-47da-a16c-3f78fc5030a6@54f2.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 10 - Montreal - Race Session
+DTEND:20250615T200000Z
+GEO:45.503400;-73.526700
+LOCATION:Montreal
+DTSTART:20250615T180000Z
+SUMMARY:🏁 FIA FORMULA 1: Canadian Grand Prix 2025 - Race
+UID:071c68f8-778d-429a-a8e9-da7614f5775c@071c.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP3
+DESCRIPTION:Round 17 - Baku - FP3 Session
+DTEND:20250920T093000Z
+GEO:40.369900;49.843300
+LOCATION:Baku
+DTSTART:20250920T083000Z
+SUMMARY:🏎️ FIA FORMULA 1: Azerbaijan Grand Prix 2025 - FP3
+UID:a19d7b0e-d06d-4758-afcc-f7530c8f7acf@a19d.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP2
+DESCRIPTION:Round 7 - Imola - FP2 Session
+DTEND:20250516T160000Z
+GEO:44.344576;11.713808
+LOCATION:Imola
+DTSTART:20250516T150000Z
+SUMMARY:🏎️ FIA FORMULA 1: Emilia Romagna Grand Prix 2025 - FP2
+UID:ca5d1148-ae3e-4ac3-959c-21122e41fb36@ca5d.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 20 - Mexico City - Qualifying Session
+DTEND:20251025T220000Z
+GEO:19.402800;-99.098600
+LOCATION:Mexico City
+DTSTART:20251025T210000Z
+SUMMARY:⏱️ FIA FORMULA 1: Mexican Grand Prix 2025 - Qualifying
+UID:06b6c2fa-f01e-4277-ac1a-f397a9a72b78@06b6.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP2
+DESCRIPTION:Round 4 - Sakhir - FP2 Session
+DTEND:20250411T160000Z
+GEO:26.037000;50.511200
+LOCATION:Sakhir
+DTSTART:20250411T150000Z
+SUMMARY:🏎️ FIA FORMULA 1: Bahrain Grand Prix 2025 - FP2
+UID:d4de64c1-9837-4672-9a27-4419627d08c0@d4de.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 11 - Spielberg - Qualifying Session
+DTEND:20250628T150000Z
+GEO:47.222500;14.760700
+LOCATION:Spielberg
+DTSTART:20250628T140000Z
+SUMMARY:⏱️ FIA FORMULA 1: Austrian Grand Prix 2025 - Qualifying
+UID:f80dc179-dbd6-48d3-9596-4f202f7b5e76@f80d.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP2
+DESCRIPTION:Round 22 - Las Vegas - FP2 Session
+DTEND:20251121T050000Z
+GEO:36.166747;-115.148708
+LOCATION:Las Vegas
+DTSTART:20251121T040000Z
+SUMMARY:🏎️ FIA FORMULA 1: Las Vegas Grand Prix 2025 - FP2
+UID:1e16526b-0457-4714-944a-94fea7030dc6@1e16.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Hungarian Grand Prix 2025 (Round 14)
+DTEND:20250802T140000Z
+DTSTART:20250802T140000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 14
+UID:0f000f77-8b95-41d1-9235-ef2e169e86a7@0f00.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Sprint Qualifying
+DESCRIPTION:Round 23 - Doha - Sprint Qualifying Session
+DTEND:20251128T180000Z
+GEO:25.490292;51.453030
+LOCATION:Doha
+DTSTART:20251128T173000Z
+SUMMARY:⏱️ FIA FORMULA 1: Qatar Grand Prix 2025 - Sprint Qualifying
+UID:afb97269-ba7b-4cf1-a033-fdf764674b34@afb9.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Qatar Grand Prix 2025 (Round 23)
+DTEND:20251129T140000Z
+DTSTART:20251129T140000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 23
+UID:31b598fc-bc7e-4815-86ec-3d5c2d13c004@31b5.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP3
+DESCRIPTION:Round 12 - Silverstone - FP3 Session
+DTEND:20250705T113000Z
+GEO:52.070600;-1.017400
+LOCATION:Silverstone
+DTSTART:20250705T103000Z
+SUMMARY:🏎️ FIA FORMULA 1: British Grand Prix 2025 - FP3
+UID:36bf4c57-4214-4fee-9688-76f39c0de269@36bf.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP2
+DESCRIPTION:Round 24 - Yas Marina - FP2 Session
+DTEND:20251205T140000Z
+GEO:24.482100;54.348200
+LOCATION:Yas Marina
+DTSTART:20251205T130000Z
+SUMMARY:🏎️ FIA FORMULA 1: Abu Dhabi Grand Prix 2025 - FP2
+UID:ad7db6ea-6b33-476d-a977-93df367d170c@ad7d.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP2
+DESCRIPTION:Round 8 - Monte Carlo - FP2 Session
+DTEND:20250523T160000Z
+GEO:43.733800;7.421500
+LOCATION:Monte Carlo
+DTSTART:20250523T150000Z
+SUMMARY:🏎️ FIA FORMULA 1: Monaco Grand Prix 2025 - FP2
+UID:745a5acc-b879-4999-900f-5791d5885ac9@745a.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 3 - Suzuka - FP1 Session
+DTEND:20250404T033000Z
+GEO:35.368900;138.925600
+LOCATION:Suzuka
+DTSTART:20250404T023000Z
+SUMMARY:🏎️ FIA FORMULA 1: Japanese Grand Prix 2025 - FP1
+UID:0da498f4-2a79-4b34-a374-dcba7e01e721@0da4.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 15 - Zandvoort - Race Session
+DTEND:20250831T150000Z
+GEO:52.388408;4.547122
+LOCATION:Zandvoort
+DTSTART:20250831T130000Z
+SUMMARY:🏁 FIA FORMULA 1: Dutch Grand Prix 2025 - Race
+UID:8457adb3-83e7-4ce3-8494-214ab826fbc1@8457.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP3
+DESCRIPTION:Round 7 - Imola - FP3 Session
+DTEND:20250517T113000Z
+GEO:44.344576;11.713808
+LOCATION:Imola
+DTSTART:20250517T103000Z
+SUMMARY:🏎️ FIA FORMULA 1: Emilia Romagna Grand Prix 2025 - FP3
+UID:61aeeaca-1817-4265-bf17-bc77736cd927@61ae.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: British Grand Prix 2025 (Round 12)
+DTEND:20250705T140000Z
+DTSTART:20250705T140000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 12
+UID:af106e09-9aa9-463f-b1b3-e6b65dd10872@af10.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP3
+DESCRIPTION:Round 15 - Zandvoort - FP3 Session
+DTEND:20250830T103000Z
+GEO:52.388408;4.547122
+LOCATION:Zandvoort
+DTSTART:20250830T093000Z
+SUMMARY:🏎️ FIA FORMULA 1: Dutch Grand Prix 2025 - FP3
+UID:4db89851-39a7-4487-80b7-976794570d37@4db8.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP3
+DESCRIPTION:Round 20 - Mexico City - FP3 Session
+DTEND:20251025T183000Z
+GEO:19.402800;-99.098600
+LOCATION:Mexico City
+DTSTART:20251025T173000Z
+SUMMARY:🏎️ FIA FORMULA 1: Mexican Grand Prix 2025 - FP3
+UID:e788927d-8fde-4912-805d-3d44408e7e9a@e788.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: United States Grand Prix 2025 (Round 19)
+DTEND:20251018T170000Z
+DTSTART:20251018T170000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 19
+UID:fcdd7412-5576-40e8-a780-182263a11741@fcdd.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Las Vegas Grand Prix 2025 (Round 22)
+DTEND:20251122T040000Z
+DTSTART:20251122T040000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 22
+UID:018e5e92-3b70-4ed6-95fa-b4da97ee2a44@018e.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP2
+DESCRIPTION:Round 20 - Mexico City - FP2 Session
+DTEND:20251024T230000Z
+GEO:19.402800;-99.098600
+LOCATION:Mexico City
+DTSTART:20251024T220000Z
+SUMMARY:🏎️ FIA FORMULA 1: Mexican Grand Prix 2025 - FP2
+UID:9d7868ce-c64c-42a7-8b31-fb9fe1a8b0a4@9d78.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP2
+DESCRIPTION:Round 5 - Jeddah - FP2 Session
+DTEND:20250418T180000Z
+GEO:21.485811;39.192505
+LOCATION:Jeddah
+DTSTART:20250418T170000Z
+SUMMARY:🏎️ FIA FORMULA 1: Saudi Arabian Grand Prix 2025 - FP2
+UID:0c0bb747-122c-43b4-b8df-10e8ce0e6fba@0c0b.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP3
+DESCRIPTION:Round 10 - Montreal - FP3 Session
+DTEND:20250614T173000Z
+GEO:45.503400;-73.526700
+LOCATION:Montreal
+DTSTART:20250614T163000Z
+SUMMARY:🏎️ FIA FORMULA 1: Canadian Grand Prix 2025 - FP3
+UID:8d050c34-6e00-47ac-b377-591839185951@8d05.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 9 - Catalunya - Qualifying Session
+DTEND:20250531T150000Z
+GEO:41.563800;2.258500
+LOCATION:Catalunya
+DTSTART:20250531T140000Z
+SUMMARY:⏱️ FIA FORMULA 1: Spanish Grand Prix 2025 - Qualifying
+UID:66edaaa7-29ce-49df-9543-ac887995d835@66ed.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Sprint
+DESCRIPTION:Round 2 - Shanghai - Sprint Session
+DTEND:20250322T033000Z
+GEO:31.380700;121.249800
+LOCATION:Shanghai
+DTSTART:20250322T030000Z
+SUMMARY:🏎️ FIA FORMULA 1: Chinese Grand Prix 2025 - Sprint
+UID:0efc49fe-8c30-4036-b5c5-6bb99d2af870@0efc.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP2
+DESCRIPTION:Round 9 - Catalunya - FP2 Session
+DTEND:20250530T160000Z
+GEO:41.563800;2.258500
+LOCATION:Catalunya
+DTSTART:20250530T150000Z
+SUMMARY:🏎️ FIA FORMULA 1: Spanish Grand Prix 2025 - FP2
+UID:e7f70c4b-f3b6-4b68-87ef-3b5d4e73473e@e7f7.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 8 - Monte Carlo - Race Session
+DTEND:20250525T150000Z
+GEO:43.733800;7.421500
+LOCATION:Monte Carlo
+DTSTART:20250525T130000Z
+SUMMARY:🏁 FIA FORMULA 1: Monaco Grand Prix 2025 - Race
+UID:48e3277f-840b-4473-a3a0-01c2ee765f89@48e3.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 24 - Yas Marina - Race Session
+DTEND:20251207T150000Z
+GEO:24.482100;54.348200
+LOCATION:Yas Marina
+DTSTART:20251207T130000Z
+SUMMARY:🏁 FIA FORMULA 1: Abu Dhabi Grand Prix 2025 - Race
+UID:54c6ab60-1f54-41d5-9afb-9e02c23b1590@54c6.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 5 - Jeddah - FP1 Session
+DTEND:20250418T143000Z
+GEO:21.485811;39.192505
+LOCATION:Jeddah
+DTSTART:20250418T133000Z
+SUMMARY:🏎️ FIA FORMULA 1: Saudi Arabian Grand Prix 2025 - FP1
+UID:9e7e2b08-5eaa-4920-9f27-b3fe4d703e6b@9e7e.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Sprint
+DESCRIPTION:Round 23 - Doha - Sprint Session
+DTEND:20251129T143000Z
+GEO:25.490292;51.453030
+LOCATION:Doha
+DTSTART:20251129T140000Z
+SUMMARY:🏎️ FIA FORMULA 1: Qatar Grand Prix 2025 - Sprint
+UID:d536a0d3-6323-48c1-ad53-4431d8dd2cd6@d536.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Miami Grand Prix 2025 (Round 6)
+DTEND:20250503T160000Z
+DTSTART:20250503T160000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 6
+UID:282b979a-d189-4c93-b06a-cbfc16463839@282b.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Sprint Qualifying
+DESCRIPTION:Round 6 - Miami - Sprint Qualifying Session
+DTEND:20250502T210000Z
+GEO:25.957764;-80.238835
+LOCATION:Miami
+DTSTART:20250502T203000Z
+SUMMARY:⏱️ FIA FORMULA 1: Miami Grand Prix 2025 - Sprint Qualifying
+UID:8680971b-6c68-4ea9-af06-79713a3b7b5f@8680.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 4 - Sakhir - Qualifying Session
+DTEND:20250412T170000Z
+GEO:26.037000;50.511200
+LOCATION:Sakhir
+DTSTART:20250412T160000Z
+SUMMARY:⏱️ FIA FORMULA 1: Bahrain Grand Prix 2025 - Qualifying
+UID:ecbc2440-7eb9-44aa-abc9-48b8fdfb7972@ecbc.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Saudi Arabian Grand Prix 2025 (Round 5)
+DTEND:20250419T170000Z
+DTSTART:20250419T170000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 5
+UID:c07a46cd-2567-44e6-bf6c-e2cc17750722@c07a.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 3 - Suzuka - Qualifying Session
+DTEND:20250405T070000Z
+GEO:35.368900;138.925600
+LOCATION:Suzuka
+DTSTART:20250405T060000Z
+SUMMARY:⏱️ FIA FORMULA 1: Japanese Grand Prix 2025 - Qualifying
+UID:e3885e9f-48ee-46b2-b2c3-597cde0d4392@e388.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 12 - Silverstone - FP1 Session
+DTEND:20250704T123000Z
+GEO:52.070600;-1.017400
+LOCATION:Silverstone
+DTSTART:20250704T113000Z
+SUMMARY:🏎️ FIA FORMULA 1: British Grand Prix 2025 - FP1
+UID:0e2396a1-a1ef-429e-be16-99515ea70d11@0e23.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 9 - Catalunya - FP1 Session
+DTEND:20250530T123000Z
+GEO:41.563800;2.258500
+LOCATION:Catalunya
+DTSTART:20250530T113000Z
+SUMMARY:🏎️ FIA FORMULA 1: Spanish Grand Prix 2025 - FP1
+UID:cc85fb6a-f24e-439e-8653-85739c143577@cc85.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Sprint Qualifying
+DESCRIPTION:Round 19 - Austin - Sprint Qualifying Session
+DTEND:20251017T220000Z
+GEO:30.132800;-97.641100
+LOCATION:Austin
+DTSTART:20251017T213000Z
+SUMMARY:⏱️ FIA FORMULA 1: United States Grand Prix 2025 - Sprint Qualifying
+UID:d93b68df-6d1b-4f81-b65b-2aba04330d41@d93b.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 13 - Spa-Francorchamps - FP1 Session
+DTEND:20250725T113000Z
+GEO:50.444000;5.968700
+LOCATION:Spa-Francorchamps
+DTSTART:20250725T103000Z
+SUMMARY:🏎️ FIA FORMULA 1: Belgian Grand Prix 2025 - FP1
+UID:e636f3f4-52ce-47de-8a30-ef3269f56cc0@e636.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 14 - Budapest - Race Session
+DTEND:20250803T150000Z
+GEO:47.583000;19.252600
+LOCATION:Budapest
+DTSTART:20250803T130000Z
+SUMMARY:🏁 FIA FORMULA 1: Hungarian Grand Prix 2025 - Race
+UID:70d3c80a-8de3-4322-8128-85ab69f04d33@70d3.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 10 - Montreal - FP1 Session
+DTEND:20250613T183000Z
+GEO:45.503400;-73.526700
+LOCATION:Montreal
+DTSTART:20250613T173000Z
+SUMMARY:🏎️ FIA FORMULA 1: Canadian Grand Prix 2025 - FP1
+UID:5921d970-467b-4b71-8100-2d1a6c067adf@5921.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Brazilian Grand Prix 2025 (Round 21)
+DTEND:20251108T140000Z
+DTSTART:20251108T140000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 21
+UID:7c4cf57a-42fd-473e-a8b1-69deadb92d25@7c4c.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP2
+DESCRIPTION:Round 18 - Singapore - FP2 Session
+DTEND:20251003T140000Z
+GEO:1.285700;103.857500
+LOCATION:Singapore
+DTSTART:20251003T130000Z
+SUMMARY:🏎️ FIA FORMULA 1: Singapore Grand Prix 2025 - FP2
+UID:51a23987-c9f2-4b62-8f97-5790d343cc56@51a2.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Sprint Qualifying
+DESCRIPTION:Round 2 - Shanghai - Sprint Qualifying Session
+DTEND:20250321T080000Z
+GEO:31.380700;121.249800
+LOCATION:Shanghai
+DTSTART:20250321T073000Z
+SUMMARY:⏱️ FIA FORMULA 1: Chinese Grand Prix 2025 - Sprint Qualifying
+UID:da7189d2-d4a7-4846-b95e-bfa8ee664055@da71.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 14 - Budapest - Qualifying Session
+DTEND:20250802T150000Z
+GEO:47.583000;19.252600
+LOCATION:Budapest
+DTSTART:20250802T140000Z
+SUMMARY:⏱️ FIA FORMULA 1: Hungarian Grand Prix 2025 - Qualifying
+UID:b302d438-1d73-43f4-bfc2-23d74acdc054@b302.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Austrian Grand Prix 2025 (Round 11)
+DTEND:20250628T140000Z
+DTSTART:20250628T140000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 11
+UID:c2b1b825-8b83-4cee-b680-5abc95a689db@c2b1.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Monaco Grand Prix 2025 (Round 8)
+DTEND:20250524T140000Z
+DTSTART:20250524T140000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 8
+UID:981ede45-243c-4796-83ea-dea7ce3354e3@981e.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP3
+DESCRIPTION:Round 18 - Singapore - FP3 Session
+DTEND:20251004T103000Z
+GEO:1.285700;103.857500
+LOCATION:Singapore
+DTSTART:20251004T093000Z
+SUMMARY:🏎️ FIA FORMULA 1: Singapore Grand Prix 2025 - FP3
+UID:fd39a343-7ea5-47ee-974d-5cd3d8c1bcc0@fd39.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP3
+DESCRIPTION:Round 14 - Budapest - FP3 Session
+DTEND:20250802T113000Z
+GEO:47.583000;19.252600
+LOCATION:Budapest
+DTSTART:20250802T103000Z
+SUMMARY:🏎️ FIA FORMULA 1: Hungarian Grand Prix 2025 - FP3
+UID:da15f87a-0196-49e5-b1fc-12f4fa92b202@da15.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP2
+DESCRIPTION:Round 1 - Melbourne - FP2 Session
+DTEND:20250314T060000Z
+GEO:-37.837300;144.966600
+LOCATION:Melbourne
+DTSTART:20250314T050000Z
+SUMMARY:🏎️ FIA FORMULA 1: Australian Grand Prix 2025 - FP2
+UID:b3dd8777-4cb3-42eb-b31a-6449424df20b@b3dd.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 5 - Jeddah - Qualifying Session
+DTEND:20250419T180000Z
+GEO:21.485811;39.192505
+LOCATION:Jeddah
+DTSTART:20250419T170000Z
+SUMMARY:⏱️ FIA FORMULA 1: Saudi Arabian Grand Prix 2025 - Qualifying
+UID:b5d31c6d-8bed-4413-b6f6-49435f3b3f6b@b5d3.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Emilia Romagna Grand Prix 2025 (Round 7)
+DTEND:20250517T140000Z
+DTSTART:20250517T140000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 7
+UID:75e7c139-9c1e-43e8-9e11-4794b669c204@75e7.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 21 - Sao Paulo - Race Session
+DTEND:20251109T190000Z
+GEO:-23.701400;-46.696900
+LOCATION:Sao Paulo
+DTSTART:20251109T170000Z
+SUMMARY:🏁 FIA FORMULA 1: Brazilian Grand Prix 2025 - Race
+UID:f2df8083-8d8e-46ba-95ba-1d03d9e7c1d2@f2df.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 17 - Baku - FP1 Session
+DTEND:20250919T093000Z
+GEO:40.369900;49.843300
+LOCATION:Baku
+DTSTART:20250919T083000Z
+SUMMARY:🏎️ FIA FORMULA 1: Azerbaijan Grand Prix 2025 - FP1
+UID:aff334f4-e813-49d5-895b-303c995fad4c@aff3.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Sprint
+DESCRIPTION:Round 21 - Sao Paulo - Sprint Session
+DTEND:20251108T143000Z
+GEO:-23.701400;-46.696900
+LOCATION:Sao Paulo
+DTSTART:20251108T140000Z
+SUMMARY:🏎️ FIA FORMULA 1: Brazilian Grand Prix 2025 - Sprint
+UID:a25581a4-fb0b-4057-b0c9-6eb85139908e@a255.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 2 - Shanghai - FP1 Session
+DTEND:20250321T043000Z
+GEO:31.380700;121.249800
+LOCATION:Shanghai
+DTSTART:20250321T033000Z
+SUMMARY:🏎️ FIA FORMULA 1: Chinese Grand Prix 2025 - FP1
+UID:564f0565-d6f6-417c-9dfd-92387c983363@564f.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP3
+DESCRIPTION:Round 1 - Melbourne - FP3 Session
+DTEND:20250315T023000Z
+GEO:-37.837300;144.966600
+LOCATION:Melbourne
+DTSTART:20250315T013000Z
+SUMMARY:🏎️ FIA FORMULA 1: Australian Grand Prix 2025 - FP3
+UID:dbc6bdec-15c6-4750-ad14-6a3d6c155cd7@dbc6.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 19 - Austin - Race Session
+DTEND:20251019T210000Z
+GEO:30.132800;-97.641100
+LOCATION:Austin
+DTSTART:20251019T190000Z
+SUMMARY:🏁 FIA FORMULA 1: United States Grand Prix 2025 - Race
+UID:a1261170-45b3-48d8-a445-bb541eb82ff8@a126.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 6 - Miami - Race Session
+DTEND:20250504T220000Z
+GEO:25.957764;-80.238835
+LOCATION:Miami
+DTSTART:20250504T200000Z
+SUMMARY:🏁 FIA FORMULA 1: Miami Grand Prix 2025 - Race
+UID:f097ea85-9d44-4d71-853d-419a720241de@f097.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 12 - Silverstone - Qualifying Session
+DTEND:20250705T150000Z
+GEO:52.070600;-1.017400
+LOCATION:Silverstone
+DTSTART:20250705T140000Z
+SUMMARY:⏱️ FIA FORMULA 1: British Grand Prix 2025 - Qualifying
+UID:269cd5a1-64a6-4743-b38c-3457b890997b@269c.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Italian Grand Prix 2025 (Round 16)
+DTEND:20250906T140000Z
+DTSTART:20250906T140000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 16
+UID:a4fe9927-621c-47da-a458-1d93b9502056@a4fe.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 13 - Spa-Francorchamps - Qualifying Session
+DTEND:20250726T150000Z
+GEO:50.444000;5.968700
+LOCATION:Spa-Francorchamps
+DTSTART:20250726T140000Z
+SUMMARY:⏱️ FIA FORMULA 1: Belgian Grand Prix 2025 - Qualifying
+UID:cf60f6bb-a1a5-48ef-a6fa-7795beacd346@cf60.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Spanish Grand Prix 2025 (Round 9)
+DTEND:20250531T140000Z
+DTSTART:20250531T140000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 9
+UID:0147b29c-20fa-4db7-b6be-79b9baec5760@0147.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 2 - Shanghai - Race Session
+DTEND:20250323T090000Z
+GEO:31.380700;121.249800
+LOCATION:Shanghai
+DTSTART:20250323T070000Z
+SUMMARY:🏁 FIA FORMULA 1: Chinese Grand Prix 2025 - Race
+UID:ace58448-c80a-4a67-a224-c7a20e92c60d@ace5.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 4 - Sakhir - Race Session
+DTEND:20250413T170000Z
+GEO:26.037000;50.511200
+LOCATION:Sakhir
+DTSTART:20250413T150000Z
+SUMMARY:🏁 FIA FORMULA 1: Bahrain Grand Prix 2025 - Race
+UID:48ad856e-0228-424a-91ae-7ab99a291854@48ad.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 18 - Singapore - Race Session
+DTEND:20251005T140000Z
+GEO:1.285700;103.857500
+LOCATION:Singapore
+DTSTART:20251005T120000Z
+SUMMARY:🏁 FIA FORMULA 1: Singapore Grand Prix 2025 - Race
+UID:77fd3381-68f4-4c6f-978c-abfe2df26f94@77fd.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 23 - Doha - FP1 Session
+DTEND:20251128T143000Z
+GEO:25.490292;51.453030
+LOCATION:Doha
+DTSTART:20251128T133000Z
+SUMMARY:🏎️ FIA FORMULA 1: Qatar Grand Prix 2025 - FP1
+UID:777f4001-bf3c-4d16-8f01-6d3fb4554470@777f.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Abu Dhabi Grand Prix 2025 (Round 24)
+DTEND:20251206T140000Z
+DTSTART:20251206T140000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 24
+UID:79174fd9-e87f-498b-b6f1-97f702e1cc62@7917.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 15 - Zandvoort - FP1 Session
+DTEND:20250829T113000Z
+GEO:52.388408;4.547122
+LOCATION:Zandvoort
+DTSTART:20250829T103000Z
+SUMMARY:🏎️ FIA FORMULA 1: Dutch Grand Prix 2025 - FP1
+UID:3b01a85b-a301-471b-b226-5d8836d5fcf8@3b01.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP3
+DESCRIPTION:Round 5 - Jeddah - FP3 Session
+DTEND:20250419T143000Z
+GEO:21.485811;39.192505
+LOCATION:Jeddah
+DTSTART:20250419T133000Z
+SUMMARY:🏎️ FIA FORMULA 1: Saudi Arabian Grand Prix 2025 - FP3
+UID:aa60c986-ad2a-42bd-a305-e57186361fba@aa60.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 20 - Mexico City - Race Session
+DTEND:20251026T220000Z
+GEO:19.402800;-99.098600
+LOCATION:Mexico City
+DTSTART:20251026T200000Z
+SUMMARY:🏁 FIA FORMULA 1: Mexican Grand Prix 2025 - Race
+UID:7c999be0-f3d3-4275-9414-de3128aa45b6@7c99.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 5 - Jeddah - Race Session
+DTEND:20250420T190000Z
+GEO:21.485811;39.192505
+LOCATION:Jeddah
+DTSTART:20250420T170000Z
+SUMMARY:🏁 FIA FORMULA 1: Saudi Arabian Grand Prix 2025 - Race
+UID:16f37cda-ed46-46ba-9710-35822739e2ea@16f3.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 9 - Catalunya - Race Session
+DTEND:20250601T150000Z
+GEO:41.563800;2.258500
+LOCATION:Catalunya
+DTSTART:20250601T130000Z
+SUMMARY:🏁 FIA FORMULA 1: Spanish Grand Prix 2025 - Race
+UID:1efd2536-0999-4744-97d3-c28406347508@1efd.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 17 - Baku - Race Session
+DTEND:20250921T130000Z
+GEO:40.369900;49.843300
+LOCATION:Baku
+DTSTART:20250921T110000Z
+SUMMARY:🏁 FIA FORMULA 1: Azerbaijan Grand Prix 2025 - Race
+UID:3d27550d-b5aa-4897-99bc-55e9f8f2921c@3d27.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 16 - Monza - Qualifying Session
+DTEND:20250906T150000Z
+GEO:45.616900;9.282500
+LOCATION:Monza
+DTSTART:20250906T140000Z
+SUMMARY:⏱️ FIA FORMULA 1: Italian Grand Prix 2025 - Qualifying
+UID:0d4b062d-c8cd-4403-826f-d71581e0bedd@0d4b.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 14 - Budapest - FP1 Session
+DTEND:20250801T123000Z
+GEO:47.583000;19.252600
+LOCATION:Budapest
+DTSTART:20250801T113000Z
+SUMMARY:🏎️ FIA FORMULA 1: Hungarian Grand Prix 2025 - FP1
+UID:cbd409d7-7eef-45e0-afa2-a7c9ab3903e2@cbd4.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 4 - Sakhir - FP1 Session
+DTEND:20250411T123000Z
+GEO:26.037000;50.511200
+LOCATION:Sakhir
+DTSTART:20250411T113000Z
+SUMMARY:🏎️ FIA FORMULA 1: Bahrain Grand Prix 2025 - FP1
+UID:74a13bf0-39f9-4e6b-a9a3-4bbb73da323e@74a1.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Sprint
+DESCRIPTION:Round 13 - Spa-Francorchamps - Sprint Session
+DTEND:20250726T103000Z
+GEO:50.444000;5.968700
+LOCATION:Spa-Francorchamps
+DTSTART:20250726T100000Z
+SUMMARY:🏎️ FIA FORMULA 1: Belgian Grand Prix 2025 - Sprint
+UID:6b616427-5d18-4069-9434-69cf65ba0f38@6b61.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 22 - Las Vegas - FP1 Session
+DTEND:20251121T013000Z
+GEO:36.166747;-115.148708
+LOCATION:Las Vegas
+DTSTART:20251121T003000Z
+SUMMARY:🏎️ FIA FORMULA 1: Las Vegas Grand Prix 2025 - FP1
+UID:97ad2e9a-7981-4b7f-b34b-75bb55e0d675@97ad.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Singapore Grand Prix 2025 (Round 18)
+DTEND:20251004T130000Z
+DTSTART:20251004T130000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 18
+UID:9c64d0f7-d9d6-45a8-9c8c-9d533803f592@9c64.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 20 - Mexico City - FP1 Session
+DTEND:20251024T193000Z
+GEO:19.402800;-99.098600
+LOCATION:Mexico City
+DTSTART:20251024T183000Z
+SUMMARY:🏎️ FIA FORMULA 1: Mexican Grand Prix 2025 - FP1
+UID:245fd72c-b8f0-48a1-a5e2-0df8cfa979dd@245f.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP3
+DESCRIPTION:Round 24 - Yas Marina - FP3 Session
+DTEND:20251206T113000Z
+GEO:24.482100;54.348200
+LOCATION:Yas Marina
+DTSTART:20251206T103000Z
+SUMMARY:🏎️ FIA FORMULA 1: Abu Dhabi Grand Prix 2025 - FP3
+UID:3df87079-f616-495d-93b9-e978f9ece297@3df8.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP2
+DESCRIPTION:Round 10 - Montreal - FP2 Session
+DTEND:20250613T220000Z
+GEO:45.503400;-73.526700
+LOCATION:Montreal
+DTSTART:20250613T210000Z
+SUMMARY:🏎️ FIA FORMULA 1: Canadian Grand Prix 2025 - FP2
+UID:96c8868b-2c11-4034-8229-74b60bcc699b@96c8.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Australian Grand Prix 2025 (Round 1)
+DTEND:20250315T050000Z
+DTSTART:20250315T050000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 1
+UID:3c8791cd-4c39-4d44-bf01-6fa1d338b40b@3c87.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP3
+DESCRIPTION:Round 8 - Monte Carlo - FP3 Session
+DTEND:20250524T113000Z
+GEO:43.733800;7.421500
+LOCATION:Monte Carlo
+DTSTART:20250524T103000Z
+SUMMARY:🏎️ FIA FORMULA 1: Monaco Grand Prix 2025 - FP3
+UID:f51334de-5454-41d5-a1bf-0dcb3f84d301@f513.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP2
+DESCRIPTION:Round 16 - Monza - FP2 Session
+DTEND:20250905T160000Z
+GEO:45.616900;9.282500
+LOCATION:Monza
+DTSTART:20250905T150000Z
+SUMMARY:🏎️ FIA FORMULA 1: Italian Grand Prix 2025 - FP2
+UID:7dd32567-4a18-48f7-9e34-6a025690d562@7dd3.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 7 - Imola - FP1 Session
+DTEND:20250516T123000Z
+GEO:44.344576;11.713808
+LOCATION:Imola
+DTSTART:20250516T113000Z
+SUMMARY:🏎️ FIA FORMULA 1: Emilia Romagna Grand Prix 2025 - FP1
+UID:ff43dd18-367e-485b-bd6e-9244fe647368@ff43.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Belgian Grand Prix 2025 (Round 13)
+DTEND:20250726T100000Z
+DTSTART:20250726T100000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 13
+UID:7cc6d219-7aad-4110-b5ca-ab2f4ec66eb9@7cc6.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Mexican Grand Prix 2025 (Round 20)
+DTEND:20251025T210000Z
+DTSTART:20251025T210000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 20
+UID:19eb71f8-f113-444f-8e7c-ac7496bb3fe0@19eb.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP2
+DESCRIPTION:Round 17 - Baku - FP2 Session
+DTEND:20250919T130000Z
+GEO:40.369900;49.843300
+LOCATION:Baku
+DTSTART:20250919T120000Z
+SUMMARY:🏎️ FIA FORMULA 1: Azerbaijan Grand Prix 2025 - FP2
+UID:1a587346-8dc5-45dd-9eb8-e2948a7cb55f@1a58.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=84600)}
+CATEGORIES:Fantasy Deadline,Motorsport,F1
+DESCRIPTION:Fantasy deadline for FIA FORMULA 1: Azerbaijan Grand Prix 2025 (Round 17)
+DTEND:20250920T120000Z
+DTSTART:20250920T120000Z
+SUMMARY:🕹️ F1 Fantasy Deadline - Round 17
+UID:e671873f-b563-40d6-8663-a2c4a3b630b8@e671.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 21 - Sao Paulo - FP1 Session
+DTEND:20251107T153000Z
+GEO:-23.701400;-46.696900
+LOCATION:Sao Paulo
+DTSTART:20251107T143000Z
+SUMMARY:🏎️ FIA FORMULA 1: Brazilian Grand Prix 2025 - FP1
+UID:1f0a6861-71ca-45fa-91bc-cc3c696a9fd4@1f0a.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 18 - Singapore - FP1 Session
+DTEND:20251003T103000Z
+GEO:1.285700;103.857500
+LOCATION:Singapore
+DTSTART:20251003T093000Z
+SUMMARY:🏎️ FIA FORMULA 1: Singapore Grand Prix 2025 - FP1
+UID:123117d8-bbae-47ee-9ece-8281458eddef@1231.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 8 - Monte Carlo - Qualifying Session
+DTEND:20250524T150000Z
+GEO:43.733800;7.421500
+LOCATION:Monte Carlo
+DTSTART:20250524T140000Z
+SUMMARY:⏱️ FIA FORMULA 1: Monaco Grand Prix 2025 - Qualifying
+UID:6fddb406-4633-4a7f-8f77-a660e0e475d1@6fdd.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 21 - Sao Paulo - Qualifying Session
+DTEND:20251108T190000Z
+GEO:-23.701400;-46.696900
+LOCATION:Sao Paulo
+DTSTART:20251108T180000Z
+SUMMARY:⏱️ FIA FORMULA 1: Brazilian Grand Prix 2025 - Qualifying
+UID:9cdf157f-547f-493b-ae00-2a735dfd1b58@9cdf.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 23 - Doha - Race Session
+DTEND:20251130T180000Z
+GEO:25.490292;51.453030
+LOCATION:Doha
+DTSTART:20251130T160000Z
+SUMMARY:🏁 FIA FORMULA 1: Qatar Grand Prix 2025 - Race
+UID:8287c4e9-322b-4610-8edf-4ce2c08f3aed@8287.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 7 - Imola - Race Session
+DTEND:20250518T150000Z
+GEO:44.344576;11.713808
+LOCATION:Imola
+DTSTART:20250518T130000Z
+SUMMARY:🏁 FIA FORMULA 1: Emilia Romagna Grand Prix 2025 - Race
+UID:7611810e-4074-43ce-98ad-f269046038de@7611.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP1
+DESCRIPTION:Round 24 - Yas Marina - FP1 Session
+DTEND:20251205T103000Z
+GEO:24.482100;54.348200
+LOCATION:Yas Marina
+DTSTART:20251205T093000Z
+SUMMARY:🏎️ FIA FORMULA 1: Abu Dhabi Grand Prix 2025 - FP1
+UID:6c715345-922f-476f-83ef-703119b0d46c@6c71.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP2
+DESCRIPTION:Round 11 - Spielberg - FP2 Session
+DTEND:20250627T160000Z
+GEO:47.222500;14.760700
+LOCATION:Spielberg
+DTSTART:20250627T150000Z
+SUMMARY:🏎️ FIA FORMULA 1: Austrian Grand Prix 2025 - FP2
+UID:43edb97a-445a-4733-836e-20cee7a437eb@43ed.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Sprint
+DESCRIPTION:Round 19 - Austin - Sprint Session
+DTEND:20251018T173000Z
+GEO:30.132800;-97.641100
+LOCATION:Austin
+DTSTART:20251018T170000Z
+SUMMARY:🏎️ FIA FORMULA 1: United States Grand Prix 2025 - Sprint
+UID:eeb5c599-8998-40ce-87bc-a68a3ecd6514@eeb5.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP3
+DESCRIPTION:Round 22 - Las Vegas - FP3 Session
+DTEND:20251122T013000Z
+GEO:36.166747;-115.148708
+LOCATION:Las Vegas
+DTSTART:20251122T003000Z
+SUMMARY:🏎️ FIA FORMULA 1: Las Vegas Grand Prix 2025 - FP3
+UID:a86ebffd-8b8a-4fc5-87f3-4649ce085599@a86e.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Sprint Qualifying
+DESCRIPTION:Round 13 - Spa-Francorchamps - Sprint Qualifying Session
+DTEND:20250725T150000Z
+GEO:50.444000;5.968700
+LOCATION:Spa-Francorchamps
+DTSTART:20250725T143000Z
+SUMMARY:⏱️ FIA FORMULA 1: Belgian Grand Prix 2025 - Sprint Qualifying
+UID:1c47a918-7b03-431e-b00b-cc9e544a3e35@1c47.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP2
+DESCRIPTION:Round 15 - Zandvoort - FP2 Session
+DTEND:20250829T150000Z
+GEO:52.388408;4.547122
+LOCATION:Zandvoort
+DTSTART:20250829T140000Z
+SUMMARY:🏎️ FIA FORMULA 1: Dutch Grand Prix 2025 - FP2
+UID:56404678-2f86-42c2-888d-09615eeb21c4@5640.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 18 - Singapore - Qualifying Session
+DTEND:20251004T140000Z
+GEO:1.285700;103.857500
+LOCATION:Singapore
+DTSTART:20251004T130000Z
+SUMMARY:⏱️ FIA FORMULA 1: Singapore Grand Prix 2025 - Qualifying
+UID:bd4148b3-6049-4f09-a7cf-8130333784b9@bd41.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 22 - Las Vegas - Race Session
+DTEND:20251123T060000Z
+GEO:36.166747;-115.148708
+LOCATION:Las Vegas
+DTSTART:20251123T040000Z
+SUMMARY:🏁 FIA FORMULA 1: Las Vegas Grand Prix 2025 - Race
+UID:0541f4f7-4c41-4f22-9768-d8a47eacea8e@0541.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,FP3
+DESCRIPTION:Round 16 - Monza - FP3 Session
+DTEND:20250906T113000Z
+GEO:45.616900;9.282500
+LOCATION:Monza
+DTSTART:20250906T103000Z
+SUMMARY:🏎️ FIA FORMULA 1: Italian Grand Prix 2025 - FP3
+UID:d3b5d728-4e02-4a8a-b889-db9f54b6bab3@d3b5.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Sprint Qualifying
+DESCRIPTION:Round 21 - Sao Paulo - Sprint Qualifying Session
+DTEND:20251107T190000Z
+GEO:-23.701400;-46.696900
+LOCATION:Sao Paulo
+DTSTART:20251107T183000Z
+SUMMARY:⏱️ FIA FORMULA 1: Brazilian Grand Prix 2025 - Sprint Qualifying
+UID:178f5ce3-18ba-46a2-955b-600b662ad957@178f.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 11 - Spielberg - Race Session
+DTEND:20250629T150000Z
+GEO:47.222500;14.760700
+LOCATION:Spielberg
+DTSTART:20250629T130000Z
+SUMMARY:🏁 FIA FORMULA 1: Austrian Grand Prix 2025 - Race
+UID:91e0fe41-af0e-4d6e-907a-cf9a6ec62dc8@91e0.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Race
+DESCRIPTION:Round 1 - Melbourne - Race Session
+DTEND:20250316T060000Z
+GEO:-37.837300;144.966600
+LOCATION:Melbourne
+DTSTART:20250316T040000Z
+SUMMARY:🏁 FIA FORMULA 1: Australian Grand Prix 2025 - Race
+UID:1abd8359-5463-48bd-bee2-202cafcc3416@1abd.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=82800)}
+{'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=85500)}
+CATEGORIES:Motorsport,F1,Qualifying
+DESCRIPTION:Round 10 - Montreal - Qualifying Session
+DTEND:20250614T210000Z
+GEO:45.503400;-73.526700
+LOCATION:Montreal
+DTSTART:20250614T200000Z
+SUMMARY:⏱️ FIA FORMULA 1: Canadian Grand Prix 2025 - Qualifying
+UID:00057263-91e6-44dc-9cf7-fcde50cd9129@0005.org
+END:VEVENT
+END:VCALENDAR
